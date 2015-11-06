@@ -28,7 +28,7 @@
 - if we want to evaluate JS code from inside JSX, put the `{code in here}`
 - attributes set on a JSX node will become that node’s props
 
-## `Component#render`
+## Component#render
 - must return a single node as the root, but can contain any number of child nodes
 - we don’t need to call `render` manually, as it gets called any time we 1) set state on this component, or 2) receive new props
 - render should be a function of `this.props` and `this.state`.  
