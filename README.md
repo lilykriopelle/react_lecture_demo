@@ -34,7 +34,7 @@
 - render should be a function of `this.props` and `this.state`.  
 - we want our props and state to be as minimal as possible.  anything that can be computed as a function of props or state (or both!) should be computed on the fly (from within a call to render).
 
-## Props v. State
+## Props vs. State
 - components should not change their own props.  props should change as the result of a state change somewhere up the react element tree.  from within a component, props should be considered immutable.
 - a component’s state should only be changed from within that component.  BUT state should never be set on the state object directly (`this.state.name = “Lily” // BAD`), but rather by using the setState function (`this.setState({name: ‘Lily'})`).  Otherwise we risk different components getting out of sync and causing strange bugs.
 - most components don’t need to have state, only props.  We should minimize our use of state, and only use for components that need to respond to user interaction or components that have values that need to change over time.
