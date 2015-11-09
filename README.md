@@ -9,7 +9,7 @@
 - React compares the current state of the UI with the desired state of the UI, and then calculates the minimal set of DOM mutations to get from one to the other.  Since DOM mutations are expensive, minimizing them in this way is a BIG WIN.
 
 ## Getting Started
-- include the library (`<script src=https://fb.me/react-0.13.3.js></script>`)
+- include the library (`<script src=https://fb.me/react-0.13.3.js></script>`) and JSX transformer (` <script src="https://fb.me/JSXTransformer-0.13.3.js" charset="utf-8"></script>`)
 - add a container element for react to render into (give it an id like ‘content’)
 - `React.render` one top level/root component into that container
 - React will replace the contents of that container with your component (and its children and their children etc)
