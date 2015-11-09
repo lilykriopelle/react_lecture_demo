@@ -5,7 +5,7 @@
 
 ## Why React?
 - Better separation of concerns.  React combines template and display logic and encourages us to separate concerns along more meaningful lines (not template vs. display, but this component vs. that component) and build more reusable/modular components. 
-- React implements a virtual DOM.  In a lot of other front end frameworks, you have to manually manipulate the real browser DOM to get it to reflect the current state of your app.  In React, you don’t have to do any of that.
+- React implements a virtual DOM.  In a lot of front end frameworks, you have to manually manipulate the real browser DOM to get it to reflect the current state of your app.  In React, you don’t have to do any of that, because React is declarative, not imperative.  We specify *what* we want the UI to look like and let React figure out *how* to make it look that way.
 - React compares the current state of the UI with the desired state of the UI, and then calculates the minimal set of DOM mutations to get from one to the other.  Since DOM mutations are expensive, minimizing them in this way is a BIG WIN.
 
 ## Getting Started
